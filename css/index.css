@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.title {
+    width: 70%;
+    padding-left: 150px;
+}
+.data {
+width: 30%;
+}
+
+.block {
+    width: 47%;
+    display: inline-block;
+    border: 2px solid white;
+    margin: auto;
+    text-align: center;
+    padding: 30px ;
+    margin: 15px 15px;
+    font-size: 25px;
+    border-radius: 10px;
+
+    
+
+}
+.blockIcon {
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.box {
+    display: block;
+}
+.langblock {
+    width: 47%;
+    display: inline-block;
+}
+.lang {
+    
+    width: 100%;
+    border: 2px solid white;
+    margin: auto;
+    text-align: center;
+    padding: 40px ;
+    margin: 15px 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+i {
+    font-size: 30px;
+    margin-right: 200px;
+    text-align: center;
+    height: 100%;
+
+}
+#pinInput {
+    width: 300px ;
+    padding: 20px 50px;
+   background-color: rgba(0, 0, 0, 0);
+   outline: none;
+   border: 1px solid white;
+   color: white;
+   font-size: 25px;
+    
+}
+.Verify-block {
+    width: 80%;
+    height: 400px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+.Verify-block span {
+    margin-left: 85px;
+    text-align: start;
+}
+.inputCard {
+   
+    padding:20px 30px ;
+}
+.card {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
